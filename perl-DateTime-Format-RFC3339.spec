@@ -2,14 +2,14 @@
 %define upstream_version v1.0.4
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 1.0.5
+Release:	1
 
 Summary:	Parse and format RFC3339 datetime strings
 License:	Public domain
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/DateTime/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/DateTime/DateTime-Format-RFC3339-v1.0.5.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(DateTime)
@@ -50,4 +50,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Dec 25 2010 Shlomi Fish <shlomif@mandriva.org> 1.0.4-1mdv2011.0
 + Revision: 624987
 - import perl-DateTime-Format-RFC3339
+
 
