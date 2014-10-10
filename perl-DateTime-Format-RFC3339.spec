@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.0.5
-Release:	1
+Release:	2
 
 Summary:	Parse and format RFC3339 datetime strings
 License:	Public domain
