@@ -8,7 +8,7 @@ Release:	3
 Summary:	Parse and format RFC3339 datetime strings
 License:	Public domain
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/DateTime/DateTime-Format-RFC3339-v1.0.5.tar.gz
 
 BuildRequires:	perl-devel
