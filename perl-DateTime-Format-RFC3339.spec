@@ -1,15 +1,15 @@
 %define upstream_name    DateTime-Format-RFC3339
-%define upstream_version v1.0.5
+%define upstream_version v1.10.0
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.0.5
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Parse and format RFC3339 datetime strings
 License:	Public domain
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/DateTime/DateTime-Format-RFC3339-v1.0.5.tar.gz
+Url:		https://github.com/ikegami/perl-DateTime-Format-RFC3339
+Source0:	https://cpan.metacpan.org/authors/id/I/IK/IKEGAMI/DateTime-Format-RFC3339-v1.10.0.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
